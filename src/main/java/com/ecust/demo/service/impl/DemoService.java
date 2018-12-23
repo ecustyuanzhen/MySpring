@@ -1,0 +1,1 @@
+package com.ecust.demo.service.impl;import com.ecust.demo.service.IDemoService;import com.ecust.mvcframework.annotation.YZService;/** * 核心业务类 * @Author:zhenyuan * @Date:Created in 15:48 2018/12/21 */@YZServicepublic class DemoService implements IDemoService {    @Override    public String get(String name) {        return "My name is "+name;    }}

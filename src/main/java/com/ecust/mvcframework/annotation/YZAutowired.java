@@ -1,0 +1,1 @@
+package com.ecust.mvcframework.annotation;import java.lang.annotation.*;/** * @Author:zhenyuan * @Date:Created in 21:02 2018/12/21 */@Target({ElementType.FIELD})@Retention(RetentionPolicy.RUNTIME)@Documentedpublic @interface YZAutowired {    String value() default "";}

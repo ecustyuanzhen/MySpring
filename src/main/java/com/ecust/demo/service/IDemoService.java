@@ -1,0 +1,1 @@
+package com.ecust.demo.service;/** * @Author:zhenyuan * @Date:Created in 15:48 2018/12/21 */public interface IDemoService {    String get(String name);}
